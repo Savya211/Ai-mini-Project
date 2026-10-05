@@ -1,0 +1,20 @@
+# requirements.txt
+#
+# AI-Based 8-Puzzle Solver
+# ========================
+# This project uses ONLY Python standard library modules:
+#   - tkinter  (GUI)
+#   - heapq    (priority queue for A*)
+#   - collections.deque  (queue for BFS)
+#   - random   (puzzle generation)
+#   - time     (performance measurement)
+#   - threading (background solver)
+#
+# No third-party packages are required.
+#
+# If tkinter is not installed on your system:
+#   Windows: tkinter is included with the standard Python installer.
+#            Re-install Python and check "tcl/tk and IDLE" during setup.
+#   Ubuntu/Debian: sudo apt-get install python3-tk
+#   Fedora: sudo dnf install python3-tkinter
+#   macOS: tkinter is included with Python from python.org.
